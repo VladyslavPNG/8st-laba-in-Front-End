@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locksmith - Слюсарні послуги</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#home">Locksmith</a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home" class="active">Головна</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#store">Магазин</a></li>
+                    <li><a href="#contact-info">Контакти</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn btn-yellow header-btn" id="openModalBtn">ЗВ'ЯЗАТИСЯ З НАМИ</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-subtitle">24/7 АВАРІЙНА СЛУЖБА</span>
+            <h1>Ми надаємо найкращі послуги слюсаря по всьому світу</h1>
+            <a href="#services" class="btn btn-yellow">НАШІ ПОСЛУГИ</a>
+        </div>
+    </section>
+
+    <!-- QUOTE FORM -->
+    <section class="quote-section" id="consultation">
+        <div class="container">
+            <div class="quote-form-box">
+                <h3>ОТРИМАТИ КОНСУЛЬТАЦІЮ</h3>
+                <form class="quote-form">
+                    <input type="text" placeholder="Ваше ім'я" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="tel" placeholder="Телефон" required>
+                    <button type="submit" class="btn btn-dark">ВІДПРАВИТИ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section-padding" id="services">
+        <div class="container">
+            <div class="section-title">
+                <span>НАШІ ПОСЛУГИ</span>
+                <h2>ПОСЛУГИ, ЯКІ МИ ПРОПОНУЄМО</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="icon-box"><i class="fa-solid fa-key"></i></div>
+                    <h3>Слюсарні послуги</h3>
+                    <p>Наша команда надає широкий спектр послуг з ремонту та заміни замків.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon-box"><i class="fa-solid fa-vault"></i></div>
+                    <h3>Сейфи та замки</h3>
+                    <p>Ми встановлюємо та обслуговуємо сейфи та замки будь-якої складності.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon-box"><i class="fa-solid fa-lock"></i></div>
+                    <h3>Контроль доступу</h3>
+                    <p>Сучасні системи контролю доступу для вашого дому чи офісу.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon-box"><i class="fa-solid fa-door-closed"></i></div>
+                    <h3>Безпека дверей</h3>
+                    <p>Наші фахівці забезпечать надійний захист вхідних дверей.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon-box"><i class="fa-solid fa-bell"></i></div>
+                    <h3>Сигналізація</h3>
+                    <p>Встановлення та налаштування охоронних сигналізацій.</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon-box"><i class="fa-solid fa-video"></i></div>
+                    <h3>Відеонагляд</h3>
+                    <p>Професійний монтаж систем відеоспостереження.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US / ABOUT -->
+    <section class="why-us-wrapper" id="about">
+        <div class="container">
+            <div class="why-card">
+                <div class="why-images">
+                    <div class="img-grid">
+                        <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Відеонагляд">
+                        <img src="https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Контроль доступу">
+                        <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Сейф">
+                        <img src="https://images.unsplash.com/photo-1582139329536-e7284fece509?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Ключі">
+                    </div>
+                </div>
+                <div class="why-text">
+                    <span class="sub-text">ЧОМУ ВАРТО ОБРАТИ НАС?</span>
+                    <h2>ЧОМУ ВИБИРАЮТЬ НАС?</h2>
+                    <p>Ми працюємо на ринку понад 10 років. Наші клієнти цінують нас за швидкість, якість та надійність.
+                    </p>
+                    <ul class="check-list">
+                        <li><i class="fa-solid fa-square-check"></i> Безпечні та надійні послуги</li>
+                        <li><i class="fa-solid fa-square-check"></i> 24/7 Аварійна допомога</li>
+                        <li><i class="fa-solid fa-square-check"></i> Кваліфікований та дружній персонал</li>
+                        <li><i class="fa-solid fa-square-check"></i> Доступні ціни</li>
+                    </ul>
+                    <a href="#" class="btn btn-dark open-modal-btn">ЗВ'ЯЗАТИСЯ З НАМИ</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- STATS -->
+        <div class="stats-bg">
+            <div class="container stats-grid">
+                <div class="stat-item">
+                    <i class="fa-solid fa-user-group"></i>
+                    <h3>25к+</h3>
+                    <p>Задоволених клієнтів</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <h3>16</h3>
+                    <p>Років досвіду</p>
+                </div>
+                <div class="stat-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        style="width: 36px; height: 36px; fill: var(--primary-yellow); margin-bottom: 15px;">
+                        <path
+                            d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zM256 64l-171 72.1c0 84.2 33.6 218.9 171 296.8C393.4 355 427 220.3 427 136.1L256 64zm-33.4 228.7c-7.8 1-15.1-4.5-16.1-12.3L201.9 250c-1-7.8 4.5-15.1 12.3-16.1l56.9-7.5c7.8-1 15.1 4.5 16.1 12.3l4.6 30.4c1 7.8-4.5 15.1-12.3 16.1l-56.9 7.5zM256 160c-8.8 0-16 7.2-16 16v16.9c-18.1 2.8-32.5 15.4-35.6 32.1c-3.4 18.4 8.9 36 27.3 39.4l37.6 6.9c3.1.6 5.3 3.3 5.3 6.4c0 3.5-2.9 6.4-6.4 6.4H234c-8.8 0-16 7.2-16 16s7.2 16 16 16h6v16c0 8.8 7.2 16 16 16s16-7.2 16-16v-16.9c18.1-2.8 32.5-15.4 35.6-32.1c3.4-18.4-8.9-36-27.3-39.4l-37.6-6.9c-3.1-.6-5.3-3.3-5.3-6.4c0-3.5 2.9-6.4 6.4-6.4H278c8.8 0 16-7.2 16-16s-7.2-16-16-16h-6v-16c0-8.8-7.2-16-16-16z" />
+                    </svg>
+                    <h3>28к+</h3>
+                    <p>Виконаних робіт</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>36</h3>
+                    <p>Майстрів</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>74к+</h3>
+                    <p>Продано товарів</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STORE -->
+    <section class="store section-padding" id="store">
+        <div class="container">
+            <div class="store-header">
+                <div class="section-title left-align">
+                    <span>НАШ МАГАЗИН</span>
+                    <h2>МАГАЗИН LOCKS</h2>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <div class="carousel-container">
+                <div class="products-track" id="productsTrack">
+                    <!-- Product 1: Розумний замок -->
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                                alt="Smart Lock">
+                        </div>
+                        <div class="product-info">
+                            <span class="price">$65</span>
+                            <h4>Розумний замок</h4>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2: Замок з кодом  -->
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT8K0jRPQNa1Ms1ol41LTdlA_Z_O3O39XUDs0FYM242cj03lmiSbYZY0KiXMIONg5p8YK0D8K1Byx2ADWiYPCFm9K3xosEODBPWxzMjCLxlmeTdX569hYsL_-R93tDAbA0hsuMz2A&usqp=CAc"
+                                alt="Code Lock">
+                        </div>
+                        <div class="product-info">
+                            <span class="price">$45</span>
+                            <h4>Замок з кодом</h4>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3: Врізний замок -->
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://images.unsplash.com/photo-1582139329536-e7284fece509?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                                alt="Mortise Lock">
+                        </div>
+                        <div class="product-info">
+                            <span class="price">$85</span>
+                            <h4>Врізний замок</h4>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-regular fa-star"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4: Набір ключів -->
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://images.prom.ua/7595427584_nabir-dlya-zbirannya.jpg" alt="Keys">
+                        </div>
+                        <div class="product-info">
+                            <span class="price">$55</span>
+                            <h4>Набір ключів</h4>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Product 5: Міні-сейф  -->
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQsNaQsRPILeg0ueW2HFUpKuzVmlR_n5tPGwKkylxaVf9g_97kLo4mjbbo-JSs6ZYkyyJ84XG0NBISOfJ5CTpQ9gkgEsxk7CDKspVroDIt3YDoktQ4Jt2YBOuPc&usqp=CAc"
+                                alt="Safe">
+                        </div>
+                        <div class="product-info">
+                            <span class="price">$195</span>
+                            <h4>Міні-сейф</h4>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-regular fa-star"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Product 6: Дверний замок -->
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSl6MfP6P2lt8qzR8hErW248kEZF98FPOeGRactC_JVP6KP7KkG2qrYPQznYsRLIIb8F_uh6D0_gpN8eIgIduJLFZXPq1XQYWqdabEHifFSa_m8sKM8S8P3YVlEYkQz2REAyIGWxfY&usqp=CAc"
+                                alt="Door Lock">
+                        </div>
+                        <div class="product-info">
+                            <span class="price">$75</span>
+                            <h4>Дверний замок</h4>
+                            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact-info">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3 class="logo">Locksmith</h3>
+                <p>Професійні слюсарні послуги, встановлення та ремонт замків, систем безпеки. Працюємо 24/7.</p>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Навігація</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Головна</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#store">Магазин</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Контакти</h4>
+                <ul class="footer-contact-list">
+                    <li><i class="fa-solid fa-phone"></i> +38 (099) 123-45-67</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@locksmith.ua</li>
+                    <li><i class="fa-solid fa-location-dot"></i> м. Київ, вул. Хрещатик, 1</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Графік роботи</h4>
+                <ul class="footer-contact-list">
+                    <li>Пн-Пт: 9:00 - 18:00</li>
+                    <li>Сб-Нд: 10:00 - 16:00</li>
+                    <li style="color: var(--primary-yellow); font-weight: bold;">Аварійна служба: 24/7</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Locksmith. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <!-- МОДАЛЬНЕ ВІКНО -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Зв'яжіться з нами</h2>
+            <p>Залиште свої дані, і наш менеджер зателефонує вам найближчим часом!</p>
+            <form id="modalForm">
+                <input type="text" placeholder="Ваше ім'я" required>
+                <input type="tel" placeholder="Ваш номер телефону" required>
+                <button type="submit" class="btn btn-yellow" style="width: 100%;">ЗАМОВИТИ ДЗВІНОК</button>
+            </form>
+            <div class="modal-direct-contact">
+                <p>Або зателефонуйте нам самі:</p>
+                <a href="tel:+380991234567" class="phone-link"><i class="fa-solid fa-phone"></i> +38 (099) 123-45-67</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
