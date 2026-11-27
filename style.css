@@ -479,7 +479,6 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #fcfcfc;
-    /* Легкий фон для картинок */
     padding: 10px;
 }
 
@@ -487,7 +486,6 @@ ul {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    /* Щоб товар було видно повністю, не обрізався */
 }
 
 .product-info .price {
